@@ -1,0 +1,6 @@
+libkdegames (4:4.10.2-1) UNRELEASED; urgency=low
+
+  * First release of kdegames after being split by upstream.
+  * Team upload.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Apr 2013 17:58:57 +0200

@@ -1,0 +1,272 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libkdegames
+Upstream-Contact: Pino Toscano <toscano.pino@tiscali.it>
+ Albert Astals Cid <aacid@kde.org>
+ Wolfgang Rohdewald <wolfgang@rohdewald.de>
+Source: http://www.kde.org/download/
+License: GPL-2+
+Copyright: 1996-2013, The K Desktop Environment project http://www.kde.org
+
+Files: chooserastergraphicssystem.cpp
+       colorproxy_p.cpp
+       colorproxy_p.h
+       kgameclock.cpp
+       kgameclock.h
+       kgamerendereditem.cpp
+       kgamerendereditem.h
+       kgamerenderedobjectitem.cpp
+       kgamerenderedobjectitem.h
+       kgamerendererclient.cpp
+       kgamerendererclient.h
+       kgamerenderer.cpp
+       kgamerenderer.h
+       kgamerenderer_p.h
+       kgdifficulty.cpp
+       kgdifficulty.h
+       kgtheme.cpp
+       kgtheme.h
+       kgtheme_p.h
+       kgthemeprovider.cpp
+       kgthemeprovider.h
+       kgthemeselector.cpp
+       kgthemeselector.h
+       kgthemeselector_p.h
+       kstandardgameaction.cpp
+       kstandardgameaction.h
+       libkdegames_capabilities.h.in
+       audio/*
+       highscore/*
+       libkdegamesprivate/*
+Copyright: 2001-2003, Andreas Beckermann <b_mann@gmx.de>
+           2001 Burkhard Lehner <Burkhard.Lehner@gmx.de>
+           2001, Martin Heni <kde@heni-online.de>
+           2001-2004, Nicolas Hadacek <hadacek@kde.org>
+           2007, David Faure <faure@kde.org>
+           2007, Gael de Chalendar (aka Kleag) <kleag@free.fr>
+           2007, Mark A. Taff <kde@marktaff.com>
+           2007, Mauricio Piacentini <mauricio@tabuleiro.com>
+           2007, Nicolas Roffet <nicolas-kde@roffet.com>
+           2007, Pino Toscano <toscano.pino@tiscali.it>
+           2007, Simon Hürlimann <simon.huerlimann@huerlisi.ch>
+           2009-2012, Stefan Majewsky <majewsky@gmx.net>
+License: LGPL-2
+
+Files: libkdegames_export.h
+       libkdegamesprivate/kgamedifficulty.cpp
+       libkdegamesprivate/kgamedifficulty.h
+       libkdegamesprivate/libkdegamesprivate_export.h
+Copyright: 2007, David Faure <faure@kde.org>
+           2007, Pino Toscano <toscano.pino@tiscali.it>
+           2007,2008 Nicolas Roffet <nicolas-kde@roffet.com>
+           2012, Stefan Majewsky <majewsky@gmx.net>
+License: LGPL-2+
+
+Files: kgamepopupitem.cpp
+       kgamepopupitem.h
+       libkdegamesprivate/kgamethemeselector.cpp
+       libkdegamesprivate/kgamethemeselector.h
+       libkdegamesprivate/kgametheme.cpp
+       libkdegamesprivate/kgametheme.h
+Copyright: 2006,2007, Mauricio Piacentini <mauricio@tabuleiro.com>
+           2007, Dmitry Suzdalev <dimsuz@gmail.com>
+           2007, Matt Williams <matt@milliams.com>
+License: GPL-2+
+
+Files: libkdegamesprivate/kgamecanvas.cpp
+       libkdegamesprivate/kgamecanvas.h
+Copyright: 2006 Maurizio Monge <maurizio.monge@gmail.com>
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: highscore/kscoredialog.h
+       highscore/kscoredialog.cpp
+Copyright: 1998, Sandro Sigala <ssigala@globalnet.it>
+           2001, Waldo Bastian <bastian@kde.org>
+           2007, Matt Williams <matt@milliams.com>
+License: Other
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted, provided
+ that the above copyright notice appear in all copies and that both that the
+ copyright notice and this permission notice and warranty disclaimer appear in
+ supporting documentation, and that the name of the author not be used in
+ advertising or publicity pertaining to distribution of the software without
+ specific, written prior permission.
+ .
+ The author disclaim all warranties with regard to this software, including all
+ implied warranties of merchantability and fitness.  In no event shall the
+ author be liable for any special, indirect or consequential damages or any
+ damages whatsoever resulting from loss of use, data or profits, whether in an
+ action of contract, negligence or other tortious action, arising out of or in
+ connection with the use or performance of this software.
+
+Files: carddecks/svg-konqi-modern/*
+Copyright: 2009, Parker Coates <parker.coates@kdemail.net>
+           2000, Laura Layland <l_layland@hotmail.com>
+           1999, Stefan Spatz <s-p-a@gmx.net>
+           Agnieszka Czajkowska <agnieszka@imagegalaxy.de>
+License: Other
+ Copyright 1999 Stefan Spatz <s-p-a@gmx.net>
+ .
+ Permission is hereby granted, free of charge, to any member of the KDE
+ project (the "K Desktop Environment" http://www.kde.org) obtaining a copy of
+ this "Konqi SDK" package and associated documentation files (the "Package"),
+ to deal in the Package without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Package, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Package.
+ .
+ THE PACKAGE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE PACKAGE OR THE USE OR OTHER DEALINGS IN THE PACKAGE.
+
+Files: carddecks/svg-penguins/*
+Copyright: 1998, DJ Delorie <dj@delorie.com>
+           1998, Markus F.X.J. Oberhumer <markus.oberhumer@jk.uni-linz.ac.at>
+           2009, Matthew Woehlke <mw_triad@users.sourceforge.net>
+Comment: In accordance with section 7(b) of GPL3, the following notice must
+ accompany any works which include the Tux graphic:
+ Original Tux artwork created by Larry Ewing, Simon Budig and Anja Gerwinski.
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation, either version 3 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this program.  If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+Files: carddecks/svg-standard/*
+Copyright: 1997, John Fitzgibbon
+           1997, Jochen Tuchbreiter <whynot@mabi.de>
+           1998, Markus F.X.J. Oberhumer <markus.oberhumer@jk.uni-linz.ac.at>
+           2009, Parker Coates <parker.coates@kdemail.net>
+License: GPL-2+
+
+Files: carddecks/svg-tigullio-international/*
+Copyright: 2004-2009 Luciano Montanaro <mikelima@cirulla.net>
+License: GPL-2+
+
+Files: carddecks/svg-xskat-german/*
+Copyright: 2004, Gunter Gerhardt (http://www.xskat.de)
+           2009, Luciano Montanaro <mikelima@cirulla.net>
+License: GPL-2+
+
+Files: carddecks/svg-xskat-french/*
+Copyright: 2004, Gunter Gerhardt (http://www.xskat.de)
+License: GPL-2+
+
+Files: cmake/*
+Copyright: 2006, Wengo
+           2009, Guillaume Martres
+License: CMAKE
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright 
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products 
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
