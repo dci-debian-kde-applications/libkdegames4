@@ -1,8 +1,8 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: libkdegames
 Upstream-Contact: Pino Toscano <toscano.pino@tiscali.it>
- Albert Astals Cid <aacid@kde.org>
- Wolfgang Rohdewald <wolfgang@rohdewald.de>
+                  Albert Astals Cid <aacid@kde.org>
+                  Wolfgang Rohdewald <wolfgang@rohdewald.de>
 Source: http://www.kde.org/download/
 License: GPL-2+
 Copyright: 1996-2013, The K Desktop Environment project http://www.kde.org
