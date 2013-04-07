@@ -54,6 +54,7 @@ Description: debugging symbols for the KDE games module
 
 Package: kdegames-card-data
 Architecture: all
+Section: games
 Depends: ${misc:Depends}
 Description: card decks for KDE games
  This package contains a collection of playing card themes for KDE card games.
