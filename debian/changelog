@@ -1,12 +1,10 @@
 libkdegames (4:4.10.3-1) UNRELEASED; urgency=low
 
-  * Team upload.
-
-  [ Maximiliano Curia ]
+  * New upstream release.
   * [debian/control] Update scm fields.
   * [debian/copyright] Fix erroneous license name in pointers to full license.
   * [debian/control::kdegames-card-data] Add Section: games.
-  * New upstream release.
+  * [debian/rules] Enable tests.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 14 May 2013 15:46:36 +0200
 
