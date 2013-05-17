@@ -22,7 +22,6 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkdegames.git
 
 Package: libkdegames6
 Architecture: any
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: shared library for KDE games
  This package contains a shared library used by KDE games.
