@@ -2,6 +2,7 @@ libkdegames (4:4.10.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Fix symbols for armhf (qreal subst).
+  * Update symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Jul 2013 10:03:55 +0200
 
