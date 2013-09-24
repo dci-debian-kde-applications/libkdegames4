@@ -1,6 +1,7 @@
 libkdegames (4:4.11.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:24:24 +0200
 
