@@ -20,8 +20,9 @@ Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/libkdegames.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/libkdegames.git
 
-Package: libkdegames6
+Package: libkdegames6abi1
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: shared library for KDE games
  This package contains a shared library used by KDE games.
@@ -31,19 +32,19 @@ Description: shared library for KDE games
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames6},
- libkdegames6 (= ${binary:Version})
+Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames6abi1},
+ libkdegames6abi1 (= ${binary:Version})
 Description: development files for the KDE games library
  This package contains development files for building software that uses
  libraries from the KDE games module.
  .
  This package is part of the KDE games module.
 
-Package: libkdegames6-dbg
+Package: libkdegames6abi1-dbg
 Architecture: any
 Priority: extra
 Section: debug
-Depends: ${misc:Depends}, libkdegames6 (= ${binary:Version}), kde-runtime-dbg
+Depends: ${misc:Depends}, libkdegames6abi1 (= ${binary:Version}), kde-runtime-dbg
 Suggests: kdegames
 Description: debugging symbols for the KDE games module
  This package contains the library debugging symbols of the shared library used

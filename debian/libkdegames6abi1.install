@@ -1,7 +1,7 @@
 usr/lib/kde4/imports/org/kde/games/core/KgItem.qml
 usr/lib/kde4/imports/org/kde/games/core/libcorebindingsplugin.so
 usr/lib/kde4/imports/org/kde/games/core/qmldir
-usr/lib/libkdegames.so.6
+usr/lib/libkdegames.so.6abi1
 usr/lib/libkdegames.so.6.*
 usr/lib/libkdegamesprivate.so.1
 usr/lib/libkdegamesprivate.so.1.*
