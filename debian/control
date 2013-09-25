@@ -29,11 +29,31 @@ Description: shared library for KDE games
  .
  This package is part of the KDE games module.
 
+Package: libkdegamesprivate1abi1
+Architecture: any
+X-Debian-ABI: 1
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: private part of shared library for KDE games
+ This package contains the private parts of the shared library used by KDE
+ games.
+ .
+ This package is part of the KDE games module.
+
+Package: kde-games-core-declarative
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kde-games-core QtDeclarative QML support
+ Contains a plugin for QtDeclarative that provides
+ support for using KDE-games-core to components written
+ in QML.
+ .
+ This package is part of the KDE games module.
+
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
 Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames6abi1},
- libkdegames6abi1 (= ${binary:Version})
+ libkdegames6abi1 (= ${binary:Version}), libkdegamesprivate1abi1 (= ${binary:Version})
 Description: development files for the KDE games library
  This package contains development files for building software that uses
  libraries from the KDE games module.
