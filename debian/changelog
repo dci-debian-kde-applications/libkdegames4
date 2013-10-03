@@ -1,4 +1,4 @@
-libkdegames (4:4.11.1-0r0) UNRELEASED; urgency=low
+libkdegames (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
   * Update install files.
