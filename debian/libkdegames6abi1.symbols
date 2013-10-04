@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.2 armhf powerpc s390 s390x sparc
 libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  ABI_6_1@ABI_6_1 4:4.11.1
  _ZN10KGameClock11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:4.11.1
@@ -52,6 +52,8 @@ libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  _ZN12KScoreDialog19KScoreDialogPrivate11aboutToShowEv@ABI_6_1 4:4.11.1
  _ZN12KScoreDialog19KScoreDialogPrivate11setupDialogEv@ABI_6_1 4:4.11.1
  _ZN12KScoreDialog19KScoreDialogPrivate23findTranslatedGroupNameERK10QByteArray@ABI_6_1 4:4.11.1
+ (arch=!armhf)_ZN12KScoreDialog19KScoreDialogPrivateD1Ev@ABI_6_1 4:4.11.2
+ (arch=!armhf)_ZN12KScoreDialog19KScoreDialogPrivateD2Ev@ABI_6_1 4:4.11.2
  _ZN12KScoreDialog21setConfigGroupWeightsERK4QMapIi10QByteArrayE@ABI_6_1 4:4.11.1
  _ZN12KScoreDialog21setHiddenConfigGroupsERK5QListI10QByteArrayE@ABI_6_1 4:4.11.1
  _ZN12KScoreDialog27addLocalizedConfigGroupNameERK5QPairI10QByteArray7QStringE@ABI_6_1 4:4.11.1
@@ -73,7 +75,7 @@ libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  _ZN12KgAudioScene14setListenerPosERK7QPointF@ABI_6_1 4:4.11.1
  _ZN12KgAudioScene6volumeEv@ABI_6_1 4:4.11.1
  _ZN12KgAudioScene8hasErrorEv@ABI_6_1 4:4.11.1
- _ZN12KgAudioScene9setVolumeEd@ABI_6_1 4:4.11.1
+ (subst)_ZN12KgAudioScene9setVolumeE{qreal}@ABI_6_1 4:4.11.1
  _ZN12KgDifficulty11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:4.11.1
  _ZN12KgDifficulty11qt_metacastEPKc@ABI_6_1 4:4.11.1
  _ZN12KgDifficulty11setEditableEb@ABI_6_1 4:4.11.1
@@ -179,7 +181,7 @@ libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  _ZN14KGamePopupItem17mouseReleaseEventEP24QGraphicsSceneMouseEvent@ABI_6_1 4:4.11.1
  _ZN14KGamePopupItem17onTextItemClickedEv@ABI_6_1 4:4.11.1
  _ZN14KGamePopupItem17playHideAnimationEv@ABI_6_1 4:4.11.1
- _ZN14KGamePopupItem17setMessageOpacityEd@ABI_6_1 4:4.11.1
+ (subst)_ZN14KGamePopupItem17setMessageOpacityE{qreal}@ABI_6_1 4:4.11.1
  _ZN14KGamePopupItem17setMessageTimeoutEi@ABI_6_1 4:4.11.1
  _ZN14KGamePopupItem18setBackgroundBrushERK6QBrush@ABI_6_1 4:4.11.1
  _ZN14KGamePopupItem19setHideOnMouseClickEb@ABI_6_1 4:4.11.1
@@ -297,7 +299,7 @@ libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  _ZN23KGameRenderedObjectItem16staticMetaObjectE@ABI_6_1 4:4.11.1
  _ZN23KGameRenderedObjectItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@ABI_6_1 4:4.11.1
  _ZN23KGameRenderedObjectItem9setOffsetERK7QPointF@ABI_6_1 4:4.11.1
- _ZN23KGameRenderedObjectItem9setOffsetEdd@ABI_6_1 4:4.11.1
+ (subst)_ZN23KGameRenderedObjectItem9setOffsetE{qreal}{qreal}@ABI_6_1 4:4.11.1
  _ZN23KGameRenderedObjectItemC1EP13KGameRendererRK7QStringP13QGraphicsItem@ABI_6_1 4:4.11.1
  _ZN23KGameRenderedObjectItemC2EP13KGameRendererRK7QStringP13QGraphicsItem@ABI_6_1 4:4.11.1
  _ZN23KGameRenderedObjectItemD0Ev@ABI_6_1 4:4.11.1
@@ -308,7 +310,7 @@ libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  _ZN7KgSound10posChangedERK7QPointF@ABI_6_1 4:4.11.1
  _ZN7KgSound11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:4.11.1
  _ZN7KgSound11qt_metacastEPKc@ABI_6_1 4:4.11.1
- _ZN7KgSound13volumeChangedEd@ABI_6_1 4:4.11.1
+ (subst)_ZN7KgSound13volumeChangedE{qreal}@ABI_6_1 4:4.11.1
  _ZN7KgSound15setPlaybackTypeENS_12PlaybackTypeE@ABI_6_1 4:4.11.1
  _ZN7KgSound16staticMetaObjectE@ABI_6_1 4:4.11.1
  _ZN7KgSound19playbackTypeChangedENS_12PlaybackTypeE@ABI_6_1 4:4.11.1
@@ -316,7 +318,7 @@ libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  _ZN7KgSound5startERK7QPointF@ABI_6_1 4:4.11.1
  _ZN7KgSound5startEv@ABI_6_1 4:4.11.1
  _ZN7KgSound6setPosERK7QPointF@ABI_6_1 4:4.11.1
- _ZN7KgSound9setVolumeEd@ABI_6_1 4:4.11.1
+ (subst)_ZN7KgSound9setVolumeE{qreal}@ABI_6_1 4:4.11.1
  _ZN7KgSoundC1ERK7QStringP7QObject@ABI_6_1 4:4.11.1
  _ZN7KgSoundC2ERK7QStringP7QObject@ABI_6_1 4:4.11.1
  _ZN7KgSoundD0Ev@ABI_6_1 4:4.11.1
