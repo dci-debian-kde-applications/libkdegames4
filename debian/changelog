@@ -1,8 +1,8 @@
-libkdegames (4:4.11.2-2) UNRELEASED; urgency=low
+libkdegames (4:4.11.2-2) experimental; urgency=low
 
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Oct 2013 11:09:48 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 12:07:48 +0200
 
 libkdegames (4:4.11.2-1) experimental; urgency=low
 
