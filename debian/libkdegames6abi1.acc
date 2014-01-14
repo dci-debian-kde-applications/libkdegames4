@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/highscore/kexthighscore.h
+    /usr/include/highscore/kexthighscore_item.h
+    /usr/include/highscore/khighscore.h
+    /usr/include/highscore/kscoredialog.h
+    /usr/include/KDE/KExtHighscore
+    /usr/include/KDE/KGameClock
+    /usr/include/KDE/KGamePopupItem
+    /usr/include/KDE/KGameRenderedItem
+    /usr/include/KDE/KGameRenderedObjectItem
+    /usr/include/KDE/KGameRenderer
+    /usr/include/KDE/KGameRendererClient
+    /usr/include/KDE/KgAudioScene
+    /usr/include/KDE/KgDeclarativeView
+    /usr/include/KDE/KgDifficulty
+    /usr/include/KDE/KgSound
+    /usr/include/KDE/KgTheme
+    /usr/include/KDE/KgThemeProvider
+    /usr/include/KDE/KgThemeSelector
+    /usr/include/KDE/KHighscore
+    /usr/include/KDE/KScoreDialog
+    /usr/include/KDE/KStandardGameAction
+    /usr/include/kgameclock.h
+    /usr/include/kgamepopupitem.h
+    /usr/include/kgamerendereditem.h
+    /usr/include/kgamerenderedobjectitem.h
+    /usr/include/kgamerendererclient.h
+    /usr/include/kgamerenderer.h
+    /usr/include/kgaudioscene.h
+    /usr/include/kgdeclarativeview.h
+    /usr/include/kgdifficulty.h
+    /usr/include/kgsound.h
+    /usr/include/kgtheme.h
+    /usr/include/kgthemeprovider.h
+    /usr/include/kgthemeselector.h
+    /usr/include/kstandardgameaction.h
+    /usr/include/libkdegames_capabilities.h
+    /usr/include/libkdegames_export.h
+</headers>
+
+<libs>
+    /usr/lib/libkdegames.so
+</libs>
+
+</descriptor>
