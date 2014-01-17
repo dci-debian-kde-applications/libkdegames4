@@ -3,18 +3,20 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
- Sune Vuorela <sune@debian.org>,
- Fathi Boudra <fabo@debian.org>,
- Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <gkiagiad@csd.uoc.gr>,
- Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.11),
- libopenal-dev,
- libsndfile1-dev
+           Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libopenal-dev,
+               libsndfile1-dev,
+               pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://games.kde.org/
@@ -24,7 +26,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/libkdegames.git
 Package: libkdegames6abi1
 Architecture: any
 X-Debian-ABI: 1
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: shared library for KDE games
  This package contains a shared library used by KDE games.
  .
@@ -33,7 +35,7 @@ Description: shared library for KDE games
 Package: libkdegamesprivate1abi1
 Architecture: any
 X-Debian-ABI: 1
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: private part of shared library for KDE games
  This package contains the private parts of the shared library used by KDE
  games.
@@ -42,7 +44,7 @@ Description: private part of shared library for KDE games
 
 Package: kde-games-core-declarative
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: kde-games-core QtDeclarative QML support
  Contains a plugin for QtDeclarative that provides
  support for using KDE-games-core to components written
@@ -53,9 +55,10 @@ Description: kde-games-core QtDeclarative QML support
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames6abi1},
-         libkdegames6abi1 (= ${binary:Version}),
-         libkdegamesprivate1abi1 (= ${binary:Version})
+Depends: libkdegames6abi1 (= ${binary:Version}),
+         libkdegamesprivate1abi1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkdegames6abi1}
 Description: development files for the KDE games library
  This package contains development files for building software that uses
  libraries from the KDE games module.
@@ -66,8 +69,9 @@ Package: libkdegames6abi1-dbg
 Architecture: any
 Priority: extra
 Section: debug
-Depends: ${misc:Depends}, libkdegames6abi1 (= ${binary:Version}),
-         kde-runtime-dbg
+Depends: kde-runtime-dbg,
+         libkdegames6abi1 (= ${binary:Version}),
+         ${misc:Depends}
 Suggests: kdegames
 Description: debugging symbols for the KDE games module
  This package contains the library debugging symbols of the shared library used
@@ -83,4 +87,3 @@ Description: card decks for KDE games
  This package contains a collection of playing card themes for KDE card games.
  .
  This package is part of the KDE games module.
-

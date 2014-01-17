@@ -200,10 +200,10 @@ License: CMAKE
  .
  1. Redistributions of source code must retain the copyright
     notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the copyright 
+ 2. Redistributions in binary form must reproduce the copyright
     notice, this list of conditions and the following disclaimer in the
     documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products 
+ 3. The name of the author may not be used to endorse or promote products
     derived from this software without specific prior written permission.
  .
  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
@@ -229,7 +229,7 @@ License: GPL-2+
  .
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
