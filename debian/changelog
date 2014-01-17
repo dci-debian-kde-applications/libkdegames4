@@ -1,11 +1,11 @@
-libkdegames (4:4.11.5-1) UNRELEASED; urgency=low
+libkdegames (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Add autopkgtest.
   * Add abi-compliance-checker info.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 14 Jan 2014 01:45:56 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jan 2014 12:58:20 -0300
 
 libkdegames (4:4.11.3-1) unstable; urgency=low
 
