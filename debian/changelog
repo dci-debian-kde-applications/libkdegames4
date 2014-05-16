@@ -1,8 +1,8 @@
-libkdegames (4:4.13.1-1) UNRELEASED; urgency=medium
+libkdegames (4:4.13.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 16 May 2014 10:45:02 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 May 2014 11:03:39 +0200
 
 libkdegames (4:4.12.4-1) unstable; urgency=medium
 
