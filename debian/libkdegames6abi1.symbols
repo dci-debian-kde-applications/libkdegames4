@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.4 alpha armel hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc ppc64 s390x
+# SymbolsHelper-Confirmed: 4:4.13.1 arm64 ppc64el x32
 libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  ABI_6_1@ABI_6_1 4:4.11.1
  _ZN10KGameClock11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:4.11.1
@@ -52,8 +52,6 @@ libkdegames.so.6abi1 libkdegames6abi1 #MINVER#
  _ZN12KScoreDialog19KScoreDialogPrivate11aboutToShowEv@ABI_6_1 4:4.11.1
  _ZN12KScoreDialog19KScoreDialogPrivate11setupDialogEv@ABI_6_1 4:4.11.1
  _ZN12KScoreDialog19KScoreDialogPrivate23findTranslatedGroupNameERK10QByteArray@ABI_6_1 4:4.11.1
- (optional=private|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !m68k !mips !mipsel !powerpc !ppc64 !s390x)_ZN12KScoreDialog19KScoreDialogPrivateD1Ev@ABI_6_1 4:4.11.2
- (optional=private|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !m68k !mips !mipsel !powerpc !ppc64 !s390x)_ZN12KScoreDialog19KScoreDialogPrivateD2Ev@ABI_6_1 4:4.11.2
  _ZN12KScoreDialog21setConfigGroupWeightsERK4QMapIi10QByteArrayE@ABI_6_1 4:4.11.1
  _ZN12KScoreDialog21setHiddenConfigGroupsERK5QListI10QByteArrayE@ABI_6_1 4:4.11.1
  _ZN12KScoreDialog27addLocalizedConfigGroupNameERK5QPairI10QByteArray7QStringE@ABI_6_1 4:4.11.1
