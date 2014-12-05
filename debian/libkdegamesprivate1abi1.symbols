@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 amd64 arm64 ppc64el x32
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkdegamesprivate.so.1abi1 libkdegamesprivate1abi1 #MINVER#
  ABI_1_1@ABI_1_1 4:4.11.1
  _ZN10KGameKeyIO11eventFilterEP7QObjectP6QEvent@ABI_1_1 4:4.11.1
@@ -390,9 +390,9 @@ libkdegamesprivate.so.1abi1 libkdegamesprivate1abi1 #MINVER#
  _ZN18KGameCanvasAdapter9childRectEv@ABI_1_1 4:4.11.1
  _ZN18KGameCanvasAdapterC1Ev@ABI_1_1 4:4.11.1
  _ZN18KGameCanvasAdapterC2Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal|arch=!amd64 !arm64 !ppc64el !x32)_ZN18KGameCanvasAdapterD0Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal|arch=!amd64 !arm64 !ppc64el !x32)_ZN18KGameCanvasAdapterD1Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal|arch=!amd64 !arm64 !ppc64el !x32)_ZN18KGameCanvasAdapterD2Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=!amd64)_ZN18KGameCanvasAdapterD0Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=!amd64)_ZN18KGameCanvasAdapterD1Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=!amd64)_ZN18KGameCanvasAdapterD2Ev@ABI_1_1 4:4.11.1
  _ZN18KGameCanvasPicture10setPictureERK8QPicture@ABI_1_1 4:4.11.1
  _ZN18KGameCanvasPicture5paintEP8QPainter@ABI_1_1 4:4.11.1
  _ZN18KGameCanvasPictureC1EP19KGameCanvasAbstract@ABI_1_1 4:4.11.1
