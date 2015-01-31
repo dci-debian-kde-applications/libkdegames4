@@ -82,8 +82,12 @@ Package: kdegames-card-data
 Architecture: all
 Section: games
 Depends: ${misc:Depends}
-Replaces: libkdegames-card-data-extra (<< 4:14.11.97-0ubuntu1), kdegames-data (<< 4:14.11.97-0ubuntu1)
-Breaks: libkdegames-card-data-extra (<< 4:14.11.97-0ubuntu1), kdegames-data (<< 4:14.11.97-0ubuntu1)
+Replaces: libkdegames-card-data-extra (<< 4:14.11.97-0ubuntu1),
+          kdegames-card-data-extra (<< 4:14.11.97-0ubuntu1~),
+          kdegames-data (<< 4:14.11.97-0ubuntu1)
+Breaks: libkdegames-card-data-extra (<< 4:14.11.97-0ubuntu1),
+        kdegames-card-data-extra (<< 4:14.11.97-0ubuntu1~),
+        kdegames-data (<< 4:14.11.97-0ubuntu1)
 Description: card decks for KDE games
  This package contains a collection of playing card themes for KDE card games.
  .
