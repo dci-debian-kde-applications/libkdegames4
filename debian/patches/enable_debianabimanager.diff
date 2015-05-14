@@ -2,7 +2,7 @@ Index: libkdegames/CMakeLists.txt
 ===================================================================
 --- libkdegames.orig/CMakeLists.txt	2013-09-24 10:43:39.040751451 +0000
 +++ libkdegames/CMakeLists.txt	2013-09-24 10:43:47.176435438 +0000
-@@ -222,3 +222,5 @@
+@@ -215,3 +219,5 @@
      ${CMAKECONFIG_INSTALL_DIR} COMPONENT Devel)
  
  macro_display_feature_log()
