@@ -2,6 +2,7 @@ libkdegames4 (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release. 
   * Fix fuzz in enable_debianabimanager.diff 
+  * Try again to fix fuzz.. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 12:17:35 -0700
 
