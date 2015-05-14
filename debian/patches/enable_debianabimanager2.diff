@@ -1,0 +1,8 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -278,3 +278,4 @@
+                 INCLUDE_QUIET_PACKAGES
+                 FATAL_ON_MISSING_REQUIRED_PACKAGES)
+ 
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
+\ No newline at end of file
