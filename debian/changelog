@@ -1,3 +1,9 @@
+libkdegames (4:4.14.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:46:19 +0200
+
 libkdegames (4:4.14.2-1) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
